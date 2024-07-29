@@ -10,7 +10,9 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
-config.color_scheme = "Afterglow"
+config.window_decorations = "RESIZE"
+config.color_scheme = "Catppuccin Macchiato"
+
 config.font = wezterm.font({
 	family = "FiraMono Nerd Font",
 })
